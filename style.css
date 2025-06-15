@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  background-color: goldenrod;
+  color: #333
+}
+
+h1 {
+  color: #333;
+}
+
+form {
+  margin-bottom: 1rem;
+  background-color: #ffffff;
+}
+
+input, select, button {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+#guest-list {
+  list-style: none;
+  padding: 0;
+}
+
+.guest-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  background: #fff9c4;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  margin-left: 5px;
+  background-color: #0288d1;
+}
+button:hover {
+  background-color: #01579b;
+}
+
+
+.Friend {
+   background-color: #bbdefb; /* light blue */
+  color: #0d47a1;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.Family {
+  background-color: #c8e6c9; /* light green */
+  color: #1b5e20;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.Colleague {
+   background-color: #d1c4e9; /* light purple */
+  color: #4a148c;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
